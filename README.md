@@ -17,30 +17,6 @@ Link: [Magento Commerce Demo](https://magento-demo.lexiconn.com/)
 #### Scenario Overview
 As a QA tester, the objective is to ensure a seamless and secure user registration and profile management process on an e-commerce website. The focus is on identifying and validating various scenarios related to user onboarding and account management.
 
-### Test Steps
-1. **Setup:**
-   - Open the Chrome browser.
-   - Configure ChromeOptions to accept insecure certificates.
-
-2. **Test: User Registration:**
-   - Navigate to the user registration page on Magento Commerce Demo.
-   - Fill in the registration form with valid user data.
-   - Submit the registration form.
-   - Verify that the registration is successful.
-
-3. **Teardown:**
-   - Close the Chrome browser.
-
-### Test Data
-- Valid user data for registration (firstname, lastname, email_address, password).
-
-### Expected Results
-1. The user should be successfully registered.
-2. The system should display a confirmation message.
-
-### Notes
-- Warnings related to CDP version may appear; consider including a specific version of the CDP in project dependencies.
-
 ## How to Run the Test
 
 ### Prerequisites
